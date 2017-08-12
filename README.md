@@ -5,7 +5,7 @@ Usage:
 
 This code requires 2 csv file or file that content as if csv file.
 
-"test_data.csv" and "train_data.csv"
+One is training data and one is test data.
 
 Example:
 
