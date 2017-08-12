@@ -28,7 +28,7 @@ clc;
 
 fprintf('Initialized\n');
 
-%%	Load Data
+%%	 Load Data
 
 train_data = load('train_data.csv');
 X = [ones(length(train_data), 1), train_data(:, 1:(size(train_data, 2)) - 1)];
@@ -67,7 +67,7 @@ fprintf('Theta computed from Gradient Descent:\n\n');
 fprintf('%f\n', theta);
 fprintf('\n');
 
-%%   Compare to testcase
+%%  Compare to testcase
 
 testcase = load('test_data.csv');
 X_Testcase = [ones(length(testcase), 1), testcase(:, 1:(size(testcase, 2) - 1))];
