@@ -1,10 +1,15 @@
 # General_Multivariate_Linear_Regression
 A general multivariate linear regression based on "train_data.csv" and "test_case.csv"
 
+
    Usage:
+   
        This code requires 2 csv file or file that content as if csv file.
+       
        "test_data.csv" and "train_data.csv"
+       
        Example:
+       
            Student A: Chinese 100, English 100, Maths 60, Overall 80
            Student B: Chinese 60, English 60, Maths 60, Overall 60
            Student C: Chinese 100, English 0, Maths 0, Overall 33
