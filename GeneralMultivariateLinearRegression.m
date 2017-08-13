@@ -65,7 +65,7 @@ plot(1:numel(costHistory), costHistory, '-b', 'LineWidth', 2);
 xlabel('Num of Iterations');
 ylabel('Cost');
 
-%   Plot all graphs Cost - Feature x
+%   Plot all graph Prediction & Label y - Feature x
 featureNum = 0;
 for i = 2:size(X, 2)
     featureNum = i - 1;
